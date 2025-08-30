@@ -4,7 +4,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class StringListProcessorTest {
 
-
     @Test
     public void shouldReturnZeroIfStringIsEmpty(){
         assertEquals(0, StringListProcessor.countUppercase(""));
